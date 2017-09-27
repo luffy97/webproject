@@ -1,0 +1,104 @@
+
+		/* height of the grid
+			.row.content{
+				height: 1500px
+			}
+
+			/* set gray background and height 100% 
+			.sidenav{
+				background-color: #f1f1f1;
+				height: 100%;
+			}
+
+			/* set black background and, white text and some padding 
+			footer{
+				background-color: #555;
+				color: white;
+				padding: 15px;
+			}
+
+			/* on small screen set height to auto for sidenav and grid 
+			@media screen and (max-width: 767px){
+				.sidenav{
+					height: auto;
+					padding: 15px;
+				}
+				.row.content{
+					height: auto;
+				}
+			}*/
+body{
+background-color: black /*#015d5d*/;
+}
+
+.oppa
+{
+opacity: 0.6;
+}
+img
+{
+
+}
+.media
+{
+	
+	height: 190px;
+	color: black;
+	
+	padding: 20px
+	border-style:solid;
+	border-radius: 10px;
+
+	
+}
+.media:hover
+{
+	opacity : 0.6;
+	background-color: gray;
+}
+
+#nav {
+  height: 100px;
+  background: transparent; // Transparent initial setting
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  border-style: none;
+}
+
+
+#logo {
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  transition: all ease .5s;
+}
+
+#bannertop {
+  height: 500px;
+  width: 100%;
+  
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#nav.shrink {
+  height: 70px;
+  transition: all ease .5s;
+  background: black; // Change background to black on scroll
+}
+
+#nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
+
+}
+
+@media (max-width: 800px	) {
+    .collapse {
+        background: black;     /* transparent red */
+    }
+}
